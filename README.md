@@ -36,22 +36,25 @@ To Edit the README:
     Which of the following is NOT a valid way to create an instance of Chair? And why does this option not work?  
     A. `var bench = new Chair(24, true);`  
     B. `Chair bench = new Chair(24, true);`  
-    C. `var bench = new(24, true);`  
+    C. `var bench = new(24, true);` This will not work. Since it wont know what kind of instance to make. 
     D. `Chair bench = new(24, true);`  
     
     
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
-
+OOP is Object Oriented Programming, which would be thinking of code as real-world objects, such as cars could also be a class.
 
 3. What is Automated Testing?
+   Automated testing is testing done automatically during the programming process to make sure everything is running as it should
 
 
-4. What are some benefits of creating tests for our projects?
+5. What are some benefits of creating tests for our projects?
+   Helps you test if your code is working before fully implementing it into the full code. Also helps you point out exactly where the bug could be
 
 
-5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+7. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+      you need to add a reference to that class to be able to access it.
 
-6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working. You do not need to write the whole test, just what you would **name** the test methods. Ex: `IsCreatedWithTwoArguments()`
+9. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working. You do not need to write the whole test, just what you would **name** the test methods. Ex: `IsCreatedWithTwoArguments()`
 ```c#
     public class Vehicle
     {
@@ -83,6 +86,10 @@ To Edit the README:
         }
     }
 ```
+test1 : Vehicle_IsCreatedWithTwoArguments()
+test2 : Summary_IsWrittenBasedOnVehicle()
+test3 : WhenDrivenMilesIncrease()
+test4 : Paint_WillPaintCarToNewColor()
 
 
 
