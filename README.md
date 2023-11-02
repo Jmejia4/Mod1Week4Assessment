@@ -36,7 +36,7 @@ To Edit the README:
     Which of the following is NOT a valid way to create an instance of Chair? And why does this option not work?  
     A. `var bench = new Chair(24, true);`  
     B. `Chair bench = new Chair(24, true);`  
-    C. `var bench = new(24, true);` This will not work. Since it wont know what kind of instance to make. 
+    C. `var bench = new(24, true);` This(c) will not work. Since it wont know what kind of instance to make. 
     D. `Chair bench = new(24, true);`  
     
     
